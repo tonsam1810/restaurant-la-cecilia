@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(222, 233, 217);
+    
+}
+#principal{
+    background-color: rgb(137, 221, 137);
+    margin: 3% 10% 2% 10%;
+    width: 80%;
+    height: auto;
+}
+
+#logo {
+    
+    border: green 9px double;
+    border-style: groove;
+} 

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/supedido.css">
+    <title>Revise su Pedido</title>
+</head>
+<body>
+    <div id="principal">
+        <header>
+            <figure><img id="logo" src="../imagenes/logo1.jpg" ><br></figure>
+           
+            
+        </header>
+        <form id="resumen" action="../paginas/visa.html" onsubmit="irapagar(this)">
+        
+            <fieldset>
+                <legend>Su pedido consiste en ...</legend>
+                <input type="button" name="boton" id="boton" value="Click para detallar " onclick="listarPedido(this)">
+                
+    
+                <div id="lista" >
+                    <!--Aqui va la lista de pedido, tomada del array pedidogenerado-->  
+                    <table id="tabla">
+                        <tr>
+                            <th>Nombre </th>
+                            <th>Cantidad </th>
+                            <th>Precio </th>
+                            <th>Precio Total </th>
+                        </tr>
+                    </table>  
+                </div>
+    
+                <label for="nombrecl">Nombre : </label>
+                <input name="nombrecl" id="nombrecl" type="text" required>
+                <label for="apellcl">Apellido : </label>
+                <input name="apellcl" id= "apellcl" type="text" required>
+                <label for="telefcl">Teléfono : </label>
+                <input name="telefcl" id= "telefcl" type="text" required>
+                
+                <p>Seleccione su opcion</p>
+    
+                
+                <input type="radio" id="mesa" name="tipo" value="mesa" required>
+                <label for="mesa">Mesa</label>
+                    <fieldset>
+                        <div id="formmesa">
+                            <label for="nmesa">Seleccione su numero de mesa </label>
+                            <select id="nmesa" required>
+                                <option value="">Seleccione</option>
+                                
+                                
+    
+                            </select>
+                        </div>
+                    </fieldset>
+                    
+                    <input type="radio" id="delivery" name="tipo" value="delivery" required>
+                    <label for="delivery">Delivery</label>
+                    <fieldset>
+                        <div id="formdelivery">
+                            
+                            <label for="calle">Calle/Av/Psj </label>
+                            <input name="calle" id="calle" type="text" required><br>
+                            <label for="numerodir">Nro/Lt</label>
+                            <input name="numerodir" id="numerodir" type="number" required><br>
+                            <label for="distrito">Distrito</label>
+                            <input name="distrito" id="distrito" type="text" required>
+                        </div>
+                    </fieldset>
+    
+                    <input type="submit" value="Ir a Pagar">
+                </fieldset>    
+        </form>
+
+    </div>
+    
+
+    
+</body>
+</html>
+<script src="../js/pedido.js"></script>
+<script src="../js/supedido.js"></script>
+

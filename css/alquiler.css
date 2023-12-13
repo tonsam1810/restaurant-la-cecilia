@@ -1,0 +1,204 @@
+nav{
+    background-color: white;
+    width: 99%;
+    height: 100px;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    
+    border-radius: 5px;
+    border: outset ;
+    border-color:rgb(19, 196, 19) ;
+    
+    }
+nav a :hover{
+    background-color: yellowgreen;
+
+    border-radius: 10px;
+
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    text-decoration: none;
+    font-size: 100px;
+    
+    color: rgb(0, 0, 0);
+    list-style: none;
+    float: left ;
+    font-size: large;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+  
+    
+}
+.menu:hover{
+    background-color:rgb(204, 221, 204);
+    border-radius: 10px;
+   
+    color: black;
+}
+body{
+    
+    background-image: url("../imagenes/mantel.jpg");
+    width: 60%;
+    
+}
+#principal{
+    position: relative;
+    left: 300px;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 254, 245);
+    border-radius: 10px;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#logo {
+    width: 50%;
+    border: green 9px double;
+    border-style: groove;
+  
+} 
+#banner{
+    width: 65%;
+    height: 300px;
+}
+
+#dispo{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+#dispo h1 {
+    width: 100%;
+    text-align: center;
+}
+#principio {
+    width: 50%;
+
+}
+#calen{
+    width: 50%;
+}
+.letra{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.imgs{
+    padding-top: 20px;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+.tablas{
+    margin-top: 20px;
+}
+
+/*seccion 2*/
+.seccion2 h1 {
+    width: 100%;
+    text-align: center;
+}
+.stocc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.stocc .eligirr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.eligirr label{
+ width: 90%;
+}
+
+
+.formulario{
+    padding-left: 50px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formulario .imgsm{
+    position: relative;
+    right:  100px;
+    padding-left: 0;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.formulario .regriss{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.regriss .fomrtt{
+    width: 40%;
+}
+
+.regriss input{
+    height: 20px;
+    margin-bottom: 10px;
+    width:  50%;
+    border-radius: 5px;
+}
+.regriss textarea{
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+#botonnn{
+    position: relative;
+    left: 200px;
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+}
+#enviarrr{
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+}
+.fomrtt{
+    font-size: 18px;
+}
+
+#tipolocal{
+    width: 300px;
+    height: 30px;
+}
+.tablas{
+    width: 400px;
+    height: 300px;
+    border: solid black 5px;
+}
+.diasreco{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

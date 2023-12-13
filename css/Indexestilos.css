@@ -1,0 +1,274 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-image: url("../imagenes/mantel.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+#principal{
+    background-color: rgb(238, 253, 238);
+    margin: 3% 10% 2% 10%;
+    width: 80%;
+    height: auto;
+}
+#carta{
+    background-color: rgb(238, 253, 238);
+    margin: 1% 5% 1% 5%;
+    width: 90%;
+    height: auto;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+nav{
+    background-color: white;
+    width: 99%;
+    height: 100px;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    
+    border-radius: 5px;
+    border: outset ;
+    border-color:rgb(19, 196, 19) ;
+    margin: 5px  ;
+    margin-left: 10px;
+    
+}
+nav a :hover{
+    background-color: yellowgreen;
+    border-radius: 10px;
+
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    text-decoration: none;
+    font-size: 100px;
+    
+    color: rgb(0, 0, 0);
+    list-style: none;
+    float: left ;
+    font-size: large;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+  
+    
+}
+.menu:hover{
+    background-color:rgb(204, 221, 204);
+    border-radius: 10px;
+   
+    color: black;
+}
+#logo {
+    width: 50%;
+    border: green 9px double;
+    border-style: groove;
+} 
+#banner{
+    width: 65%;
+    height: 300px;
+}
+
+section{
+    padding: 5% 3%;
+    display: flex;
+    
+}
+
+aside{
+    width: 25%;
+    border-right: solid 2px green;
+}
+
+aside h2{
+    margin: 10px;
+}
+
+aside ul{
+    padding: 1% 1% 10% 0%;
+}
+aside ul li{
+    
+    list-style:none;
+    margin: 6px 2px;
+    
+    padding: 8px 4px;
+    border-radius: 10px;
+    color: white;
+    font-family: fantasy ;
+}
+.botoncat{
+    background-color: rgb(86, 224, 67);
+    border: rgb(12, 39, 12) 9px double;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 8px 4px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+
+article{
+    background-color: white;
+    width: 75%;
+    height: 500px;
+}
+
+footer{
+    border-top:solid 2px green;
+    margin: 10px 5px;
+    padding-top: 3%;
+    display: flex;
+    color: green;
+}
+#titulo{
+    color: rgb(4, 58, 4);
+    text-align: center;
+}
+#nosotros{
+    width: 55%;
+    border-right: solid 2px green;
+    padding: 3%;
+}
+#nosotros p{
+    padding: 4%;
+    text-align: justify;
+}
+#contacto{
+    width: 25%;
+    padding: 2%;
+    background-color: white;
+}
+#contacto h3{
+    font-size: x-large;
+}
+#facebook{
+    padding: 3%;
+}
+
+#facebook img{
+    width: 15%;
+}
+iframe{
+    width: 99%;
+}
+#cerdito{
+    width: 20%;
+}
+#telefonos{
+    display: flex;
+    
+    font-size: x-large;
+}
+#menu{
+    height: 500px;
+}
+
+#botonpedido{
+    width: 95%;
+    text-align: center;
+}
+
+#botonpedido img{
+    width: 99%;
+}
+#pedidos{
+    width:80%;
+    height: auto;
+ 
+}
+#titulocategorias{
+    width: 98%;
+    height: 43px;  
+  
+    margin-left: 3%;
+    background-color: rgb(86, 224, 67);
+    border: rgb(12, 39, 12) 9px double;
+    text-align: center;
+}
+    
+#cajaproductos{
+  
+    width: 92%;
+    height: auto;
+    margin-left: 3%;
+    
+    margin-top: 15px;
+    display:grid;
+   
+    
+   
+    grid-auto-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+     
+}
+#productos{
+    width: 96%;
+    height: 300px;
+
+    background-color: rgb(241, 241, 206);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    
+    
+    
+}
+
+.imgproductos{
+    width: 98%;
+    height: 70%;
+    margin-left: 1%;
+    margin-top: 5px;
+  
+
+}
+
+
+h4{
+    color: white;
+}
+#Chicharrones{
+    width: 100%;
+    height: auto;
+    
+}
+#Piqueos{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+#Almuerzos{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+#Entradas{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+#BebidasSinAlcohol{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+#BebidasAlcoholicas{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
